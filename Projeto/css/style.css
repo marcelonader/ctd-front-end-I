@@ -6,13 +6,16 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Press Start 2P', cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
     background-color: darkgray;
-    padding: 40px;
-    position: relative;
+    padding: 3rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .container{
@@ -27,7 +30,6 @@ nav{
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-
 }
 
 .menuSuperior{
@@ -38,48 +40,60 @@ nav{
     border-right: 0.3rem solid black;
     border-bottom: 0.3rem solid black;
     border-radius: 10rem;
-    display: inline-block;
-    width: 10rem;
-    height: 3.5rem;
+    display: flex;
+    width: 12.8rem;
+    height: 3rem;
     background-color: rgba(240, 65, 138, 1);
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0.6rem;
-    line-height: 2rem;
+    line-height: 1.3rem;
     text-align: center;
-    
+ 
 }
 
+.imgMenuSuperior{
+    margin-right: 1rem;
+    padding-left: 0.6rem;
+}
+
+.hero-img{
+    height: 49rem;
+    width: 100%;
+    max-width: 980px;
+    position: relative;
+    top: 10.5rem
+}
 #img-hero {
     height: 30rem;
     width: 100%;
     max-width: 980px;
+    position: absolute;
+
 }
 
 .box-centro{
     display: inline-block;
     background-color:rgb(113, 113, 148);
     color: #ffffff;
-    position: relative;
+    position: absolute;
     left: 50%;
     right: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
     height: auto;
+    top: 30rem;
     text-align: center;
     line-height: 1.7rem;
     font-size: 0.7rem;
-    padding: 0rem 5rem 7rem 5rem;
+    padding: 0rem 3rem 6rem 3rem;
     max-width: 980px;
     margin: auto;
 }
-/* 
-#divBranca{
-    background-color: #e01515;
-    height: 15rem;
-    width: 100%;
-    max-width: 980px;
-    position: relative;
-} */
+
+#logo{
+    width: 15rem;
+    height: 4rem;
+}
 
 #titulo-box{
     position: relative;
@@ -87,12 +101,16 @@ nav{
     line-height: 0.1rem;
     font-size: 1.4rem;
     display: inline;
+    font-family: 'Press Start 2P', cursive;
 }
 
 #paragrafo-box{
+
     position: relative;
-    top: 6rem;
+    top: 4rem;
     font-size: 1rem;
+    font-family: 'Press Start 2P', cursive;
+
 }
 
 body{
@@ -102,7 +120,7 @@ body{
 footer{
     background-color: lightgrey;
     width: 100%;
-    padding: 3rem;
+    padding: 6rem;
     padding-top: 0; 
     margin-top: 2rem;
     text-align: center;
@@ -124,6 +142,48 @@ footer{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    align-items: center;
+}
+
+#logoCopy{
+    margin-right: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.redesSociais{
+    right: 10rem;
+    line-height: 2rem;
+    display: flex;
+}
+
+.instagram{
+    position: absolute;
+    display: flex;
+    width: 10rem;
+    height: 3rem;
+    right: 2rem;
+    margin-right: 1rem;
+}
+
+.linkedin{
+    position: absolute;
+    display: flex;
+    width: 10rem;
+    height: 3rem;
+    right: 12rem;
+    margin-right: 2rem;
+}
+
+.github{
+    position: absolute;
+    display: flex;
+    width: 10rem;
+    height: 3rem;
+    right: 22rem;
+    margin-right: 3rem;
 }
 
 
@@ -132,3 +192,39 @@ footer{
     font-size: 50%;
    } 
 }
+
+@media (max-width: 680px) {
+    html{
+     font-size: 45%;
+    } 
+ }
+ @media (max-width: 605px) {
+    html{
+     font-size: 40%;
+    } 
+ }
+
+ @media (max-width: 525px) {
+    html{
+     font-size: 35%;
+    } 
+ }
+
+ @media (max-width: 488px) {
+    html{
+     font-size: 30%;
+    } 
+ }
+
+ @media (max-width: 415px) {
+    html{
+     font-size: 25%;
+    } 
+ }
+
+ 
+ @media (max-width: 350px) {
+    html{
+     font-size: 22%;
+    } 
+ }
