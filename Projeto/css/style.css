@@ -1,0 +1,134 @@
+html {
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+header{
+    background-color: darkgray;
+    padding: 40px;
+    position: relative;
+}
+
+.container{
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+    
+}
+nav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+
+}
+
+.menuSuperior{
+    text-decoration: none;
+    margin: 1.5rem;
+    color: #ffffff;
+    border: 0.1rem solid #000000;
+    border-right: 0.3rem solid black;
+    border-bottom: 0.3rem solid black;
+    border-radius: 10rem;
+    display: inline-block;
+    width: 10rem;
+    height: 3.5rem;
+    background-color: rgba(240, 65, 138, 1);
+    font-size: 1.2rem;
+    padding: 0.6rem;
+    line-height: 2rem;
+    text-align: center;
+    
+}
+
+#img-hero {
+    height: 30rem;
+    width: 100%;
+    max-width: 980px;
+}
+
+.box-centro{
+    display: inline-block;
+    background-color:rgb(113, 113, 148);
+    color: #ffffff;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: auto;
+    text-align: center;
+    line-height: 1.7rem;
+    font-size: 0.7rem;
+    padding: 0rem 5rem 7rem 5rem;
+    max-width: 980px;
+    margin: auto;
+}
+/* 
+#divBranca{
+    background-color: #e01515;
+    height: 15rem;
+    width: 100%;
+    max-width: 980px;
+    position: relative;
+} */
+
+#titulo-box{
+    position: relative;
+    top: 3rem;
+    line-height: 0.1rem;
+    font-size: 1.4rem;
+    display: inline;
+}
+
+#paragrafo-box{
+    position: relative;
+    top: 6rem;
+    font-size: 1rem;
+}
+
+body{
+    height: 10vh;
+}
+
+footer{
+    background-color: lightgrey;
+    width: 100%;
+    padding: 3rem;
+    padding-top: 0; 
+    margin-top: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.boxFooter{
+    display: inline-block;
+    position: relative;
+    border-bottom: 2px solid rgba(240, 65, 138, 1);
+    width: 100%;
+    right: 60%;
+    bottom: 1rem;
+    margin-top: 0;
+}
+
+.textoFooter{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@media (max-width: 768px) {
+   html{
+    font-size: 50%;
+   } 
+}
